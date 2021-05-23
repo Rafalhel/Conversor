@@ -37,6 +37,7 @@ class Converter(QMainWindow, Ui_Conversor):
             self.label_2.setText(f"1 {self.search} = R${t}")
             self.label.setText("= R$" + mt)
         except:
+            self.label_2.setText("")
             self.label.setText("Valor inválido")
 
 if __name__ == '__main__':
