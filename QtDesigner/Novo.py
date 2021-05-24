@@ -1,5 +1,5 @@
 import sys
-from QtDesigner.Dolar import *
+from Dolar import *
 from PyQt5.QtWidgets import QMainWindow, QApplication
 import requests
 from bs4 import BeautifulSoup
